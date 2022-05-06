@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row {
+    position: relative;
+
+}
+
+.sidebar {
+    width: 30%;
+
+
+}
+
+.sidebar .content {
+    padding: 0.01em 16px;
+    margin: 10px;
+}
+
+.sidebar .content img {
+    width: 40%;
+    border-radius: 4px;
+}
+
+.sidebar .content h4 {
+    font-size: 22px;
+}
+
+.sidebar .content p {
+    color: #757575;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.sidebar .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 25px;
+
+}
+
+.sidebar .menu a {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.sidebar .menu .options {
+    height: 50px;
+    width: 40%;
+}
+
+.sidebar .menu .options a p {
+    margin-left: 10px;
+    color: black;
+}
+
+.sidebar .menu .options:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.sidebar .menu .options a i {
+    color: black;
+}
+
+.sideimg {
+    width: 90px;
+    height: 90px;
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
+
+.sideimg img {
+    width: 100%;
+    height: 90px;
+    border-radius: 50%;
+
+}
+
+.sideicon {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.sideicon i {
+    font-size: 50px;
+}
+.sidebar .icons{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.sidebar .icons i:hover{
+    color: #757575;
+}
